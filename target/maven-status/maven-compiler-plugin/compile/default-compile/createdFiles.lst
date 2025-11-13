@@ -1,0 +1,14 @@
+com\coderhouse\models\Curso.class
+com\coderhouse\repository\CursoRepository.class
+com\coderhouse\repository\ProfesorRepository.class
+com\coderhouse\controller\AlumnoController.class
+com\coderhouse\controller\CursoController.class
+com\coderhouse\repository\AlumnoRepository.class
+com\coderhouse\service\CursoService.class
+com\coderhouse\service\AlumnoService.class
+com\coderhouse\controller\ProfesorController.class
+com\coderhouse\models\Profesor.class
+com\coderhouse\HibernateUtil.class
+com\coderhouse\Main.class
+com\coderhouse\service\ProfesorService.class
+com\coderhouse\models\Alumno.class

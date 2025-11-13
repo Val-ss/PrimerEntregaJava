@@ -25,8 +25,7 @@ public class Profesor {
     @OneToMany(mappedBy = "profesor", fetch = FetchType.EAGER)
     private List<Curso> cursos = new ArrayList<>();
 
-    public Profesor() {
-    }
+    public Profesor() {}
 
     public Profesor(String nombre, String apellido, String especialidad) {
         this.nombre = nombre;
@@ -35,18 +34,15 @@ public class Profesor {
         this.cursos = new ArrayList<>();
     }
 
+    // Getters y Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
-
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }
-
     public String getApellido() { return apellido; }
     public void setApellido(String apellido) { this.apellido = apellido; }
-
     public String getEspecialidad() { return especialidad; }
     public void setEspecialidad(String especialidad) { this.especialidad = especialidad; }
-
     public List<Curso> getCursos() { return cursos; }
     public void setCursos(List<Curso> cursos) { this.cursos = cursos; }
 
